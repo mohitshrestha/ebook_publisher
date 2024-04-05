@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "ebook_publisher"
+  author: "Mohit Shrestha"
+  date: "4/5/2024"
+  downloads: [pdf, epub]
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+  epub:
+    toc: false
+    lang: en-US
+
+editor: visual
+
